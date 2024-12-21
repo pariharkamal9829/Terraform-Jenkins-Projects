@@ -19,6 +19,8 @@ Ensure your system meets the following requirements:
 
 ## Step 1: Install Terraform
 
+![Terraform Logo](https://www.terraform.io/assets/images/og-image-8b3e4f7d.png)
+
 ### 1. Download Terraform
 
 1. Visit the [Terraform Download Page](https://www.terraform.io/downloads.html).
@@ -41,6 +43,8 @@ Ensure your system meets the following requirements:
 ---
 
 ## Step 2: Install Jenkins
+
+![Jenkins Logo](https://www.jenkins.io/images/logos/jenkins/jenkins.png)
 
 ### 1. Download Jenkins
 
@@ -153,4 +157,5 @@ Ensure your system meets the following requirements:
 - [Windows Environment Variable Guide](https://docs.microsoft.com/en-us/windows/win32/procthread/environment-variables)
 
 Happy Automating!
+
 
