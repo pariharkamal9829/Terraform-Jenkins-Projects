@@ -44,7 +44,7 @@ Ensure your system meets the following requirements:
 
 ## Step 2: Install Jenkins
 
-![Jenkins Logo](https://www.jenkins.io/images/logos/jenkins/jenkins.png)
+<img src="https://www.jenkins.io/images/logos/jenkins/jenkins.png" alt="Jenkins Logo" width="300">
 
 ### 1. Download Jenkins
 
