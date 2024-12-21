@@ -19,7 +19,7 @@ Ensure your system meets the following requirements:
 
 ## Step 1: Install Terraform
 
-<img src="https://github.com/user-attachments/assets/a2a1a971-7555-422a-a15b-7760eb027e7d)
+<img src="https://github.com/user-attachments/assets/4ebf3728-fa38-4480-8229-427e1c2ab856
 " alt="Terraform Logo" width="300">
 
 ### 1. Download Terraform
