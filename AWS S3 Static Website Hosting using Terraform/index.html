@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hosting A Static Website Using S3</title>
+  <style>
+    /* Dark background with a gradient effect */
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(45deg, #2c3e50, #34495e, #000000, #2c3e50);
+      background-size: 400% 400%;
+      animation: gradientBackground 15s ease infinite;
+      font-family: 'Arial', sans-serif;
+      color: #ffffff;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    /* Centered container */
+    .container {
+      text-align: center;
+    }
+
+    /* Text animations for h1 and h2 with alternate effects */
+    h1, h2 {
+      margin: 0;
+      opacity: 0;
+      animation: fadeInOut 6s infinite alternate;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Specific styles for each heading */
+    h1 {
+      font-size: 6rem;
+      font-weight: bold;
+      animation-delay: 0s;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      font-weight: normal;
+      margin-top: 10px;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+      animation-delay: 1s;
+    }
+
+    /* Alternate fade in and out animation for both h1 and h2 */
+    @keyframes fadeInOut {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      50% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+    }
+
+    /* Background gradient animation */
+    @keyframes gradientBackground {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>AWS S3 Rocks!!</h1>
+    <h2>This page is deployed on AWS S3</h2>
+    <h2>I am static</h2>
+  </div>
+</body>
+</html>
