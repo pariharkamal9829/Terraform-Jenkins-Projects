@@ -158,7 +158,7 @@ terraform apply -auto-approve
 ```
 4. It will give your website link as output as shown below
 
-C:\Users\parih\OneDrive\Desktop\Devops\Terraform-Jenkins-Projects\AWS S3 Static Website Hosting using Terraform\ss\1.png
+https://github.com/pariharkamal9829/Terraform-Jenkins-Projects/blob/main/AWS%20S3%20Static%20Website%20Hosting%20using%20Terraform/ss/1.png
 
 ### Step 6: Verify the Output 
 
