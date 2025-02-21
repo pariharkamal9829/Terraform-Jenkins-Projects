@@ -164,6 +164,7 @@ terraform apply -auto-approve
 ### Step 6: Verify the Output 
 
 Copy the link and paste it in your favourite browser.
+![image](https://github.com/user-attachments/assets/0114c27a-7937-4cf3-8c66-baaa0bffed51)
 
 
 
